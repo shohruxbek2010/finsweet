@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    a{
+        @apply inline-block
+    }
+    h2{
+        @apply text-5xl leading-[64px] font-semibold
+    }
+}
+
+@layer components{
+    .containerb{
+        @apply w-full max-w-base mx-auto px-5
+    }
+    .navlink{
+        @apply text-base leading-7 font-medium text-[#BBBBCB]
+    }
+    .navlink-active{
+        @apply text-white
+    }
+}
